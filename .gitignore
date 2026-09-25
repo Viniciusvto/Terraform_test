@@ -1,0 +1,23 @@
+# Chaves privadas
+*.pem
+
+# Pasta com os plugins baixados pelo terraform init
+.terraform/
+
+# State: guarda IDs, IPs e às vezes dados sensíveis da infraestrutura
+*.tfstate
+*.tfstate.*
+
+# Arquivos de variáveis, que costumam conter valores sensíveis
+*.tfvars
+*.tfvars.json
+
+# Logs de falha do Terraform
+crash.log
+crash.*.log
+
+# Etiquetas que o Windows cria ao copiar downloads para o WSL
+*:Zone.Identifier
+
+# Arquivos temporários de editores
+*.swp
